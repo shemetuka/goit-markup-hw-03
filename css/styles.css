@@ -189,7 +189,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.visually-hidden-feature {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -309,10 +309,10 @@ button {
 /**--------footer-----*/
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
-  height: 312px;
+  padding: 100px 0;
 }
 
-.footer .logo {
+> .footer .logo {
   color: var(--NAVY-BLUE, #4d5ae5);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -320,19 +320,17 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 100px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer .logo .studio-web-span {
   color: #f4f4fd;
 }
 
-.footer-text {
+.footer-text-p {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* margin-left: 156px; */
-  /* display: flex; */
-  padding-top: 17.5px;
-  width: 264px;
+  max-width: 264px;
 }
