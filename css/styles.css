@@ -255,7 +255,8 @@ button {
 /**--------SECTION4-----*/
 
 .section-portfolio-our {
-  padding-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -265,14 +266,14 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-top: 120px;
+  padding-bottom: 72px; */
 }
 .portfolio-list {
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 48px;
+  gap: 48px 24px;
   /* justify-content: center; */
 }
 .portfolio-list-item {
@@ -282,10 +283,10 @@ button {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
-.portfolio-list-img {
+/* .portfolio-list-img {
   padding-bottom: 32px;
   margin: 0 auto;
-}
+} */
 .portfolio-list-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -294,7 +295,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: start;
-  padding: 0px 16px;
+  /* padding: 0px 16px; */
 }
 .portfolio-list-text {
   color: var(--SLATE, #434455);
@@ -303,7 +304,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: start;
-  padding: 0px 16px;
+  /* padding: 0px 16px; */
 }
 /**----------------------*/
 /**--------footer-----*/
@@ -312,7 +313,7 @@ button {
   padding: 100px 0;
 }
 
-> .footer .logo {
+.footer .logo {
   color: var(--NAVY-BLUE, #4d5ae5);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
