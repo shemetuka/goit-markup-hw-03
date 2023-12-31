@@ -266,8 +266,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* padding-top: 120px;
-  padding-bottom: 72px; */
+  margin-bottom: 72px;
 }
 .portfolio-list {
   background-color: #ffffff;
@@ -283,10 +282,11 @@ button {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
-/* .portfolio-list-img {
-  padding-bottom: 32px;
-  margin: 0 auto;
-} */
+.portfolio-list-setting {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-list-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -295,7 +295,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: start;
-  /* padding: 0px 16px; */
+  margin-bottom: 8px;
 }
 .portfolio-list-text {
   color: var(--SLATE, #434455);
