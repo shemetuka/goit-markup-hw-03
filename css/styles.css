@@ -98,6 +98,7 @@ button {
 }
 .adress {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address-list-a {
@@ -117,8 +118,8 @@ button {
 /**--------SECTION1-----*/
 
 .section-feature-first {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: #2e2f42;
 }
 
