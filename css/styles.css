@@ -80,7 +80,6 @@ button {
 }
 
 .header-list-item {
-  padding: 24px 0;
 }
 
 .header-list-a {
@@ -90,6 +89,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   align-items: center;
+  padding: 24px 0;
+  display: block;
 }
 .header-list-a:hover,
 .header-list-a:focus,
